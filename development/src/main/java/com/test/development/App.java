@@ -1,6 +1,7 @@
 package com.test.development;
 
 import java.io.FileInputStream;
+
 import java.io.IOException;
 import java.util.Date;
 
@@ -43,8 +44,6 @@ public class App
         transaction.commit();
         
         session.close();
-        
-        System.out.println("Completed");
         
     }
 }
